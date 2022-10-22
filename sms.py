@@ -717,7 +717,6 @@ class SPAM:
             self.tiki()
             self.meta_vn()
             self.vntrip()
-            time.sleep()
             
 if __name__ == "__main__":
     try:
