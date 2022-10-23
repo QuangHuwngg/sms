@@ -11,7 +11,6 @@ import requests
 import sys
 from colorama import Fore, Back, Style
 
-os.system("cls")
 def slowprint(s):
 	for c in s + '\n':
 		sys.stdout.write(c)
@@ -19,7 +18,6 @@ def slowprint(s):
 		time.sleep(1./10)
 slowprint(Fore.LIGHTBLUE_EX + "Tool Spam Sms By Nguyễn Quang Hưng")
 time.sleep(1.0)
-os.system("cls")
 
 class SPAM:
     def __init__(self):
