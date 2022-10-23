@@ -1,7 +1,6 @@
 import os
 import sys
 import time
-os.system("cls")
 def slowprint(s):
 	for c in s + '\n':
 		sys.stdout.write(c)
