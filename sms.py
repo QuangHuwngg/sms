@@ -15,7 +15,7 @@ def slowprint(s):
 	for c in s + '\n':
 		sys.stdout.write(c)
 		sys.stdout.flush()
-		time.sleep(1./10)
+		time.sleep(1./50)
 slowprint(Fore.LIGHTBLUE_EX + "Tool Spam Sms By Nguyễn Quang Hưng")
 time.sleep(1.0)
 
@@ -44,7 +44,87 @@ class SPAM:
             'User-Agent': 'MoMoPlatform-Release/31161 CFNetwork/1240.0.4 Darwin/20.5.0',
         }
         self.ua = {
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36', 
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13(KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13', 
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.205.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.204.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.4 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0 (x86_64); de-DE) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.2; de-DE) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/525.13.',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.201.1 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.201.1 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.201.1 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.201.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.1 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.1 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.198 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.11 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.11 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.11 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.11 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.197 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.2 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196.0 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.196 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.6 Safari/532.0',
+    'user-agent': 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20090913 Firefox/3.5.3',
+    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Vivaldi/1.3.501.6',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.1) Gecko/20090718 Firefox/3.5.1',
+    'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1',
+    'user-agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64)',
+    'user-agent': 'Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))',
+    'user-agent': 'Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)',
+    'user-agent': 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident/5.0)',
+    'user-agent': 'Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)',
+    'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko',
+    'user-agent': 'Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0;  rv:11.0) like Gecko',
+    'user-agent': 'Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0',
+    'user-agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 7.0; InfoPath.3; .NET CLR 3.1.40767; Trident/6.0; en-IN)',
+    'user-agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)',
+    'user-agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)',
+    'user-agent': 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)',
 }
     def format_print(self, symbol, text):
         return f"""                      {Col.Symbol(symbol, self.lblue, self.blue)} {self.lblue}{text}{Col.reset}"""
@@ -53,14 +133,14 @@ class SPAM:
     def banner(self):
         os.system("cls" if os.name == "nt" else "clear")
         title = '\n\n\n---Tool Spam Sms By Nguyễn Quang Hưng---'
-        banner = '''\n   _____   __  __    _____ 
-  / ____| |  \/  |  / ____|
- | (___   | \  / | | (___  
-  \___ \  | |\/| |  \___ \ 
-  ____) | | |  | |  ____) |
- |_____/  |_|  |_| |_____/  
-                               \n\n'''
+        banner = '''\n███████╗███╗   ███╗███████╗
+██╔════╝████╗ ████║██╔════╝
+███████╗██╔████╔██║███████╗
+╚════██║██║╚██╔╝██║╚════██║
+███████║██║ ╚═╝ ██║███████║
+╚══════╝╚═╝     ╚═╝╚══════╝\n'''
         print(Colorate.Vertical(Colors.DynamicMIX((Col.light_green, Col.light_gray)), Center.XCenter(title)) + Colorate.Vertical(Colors.DynamicMIX((Col.light_red, Col.light_blue)), Center.XCenter(banner)))
+        print(Col.light_red + "                                   " + "<==============================================>\n")
     def random_string(self, length):
             number = '0123456789'
             alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ'
@@ -103,7 +183,7 @@ class SPAM:
             }
 
             response = requests.post('https://api.momo.vn/backend/auth-app/public/CHECK_USER_BE_MSG', headers=self.headers, json=json_data)
-            time.sleep(500)
+            time.sleep(5)
     def send_otp(self):
         json_data = {
                 'user': self.phone,
@@ -502,53 +582,7 @@ class SPAM:
         except:
             print(self.format_print("*",f"ZALOPAY: ERROR!"))
     def tiki(self):
-        try:
-            def random_string(self, length):
-                    number = '0123456789'
-                    alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ'
-                    id = ''
-                    for i in range(0,length,2):
-                        id += random.choice(number)
-                        id += random.choice(alpha)
-                    return id
-            def checkdvc(self):
-                while True:
-                    json_data = {
-                        'user': self.phone,
-                        'msgType': 'CHECK_USER_BE_MSG',
-                        'momoMsg': {
-                            '_class': 'mservice.backend.entity.msg.RegDeviceMsg',
-                            'number': self.phone,
-                            'imei': str(self.imei),
-                            'cname': 'Vietnam',
-                            'ccode': '084',
-                            'device': 'iPhone',
-                            'firmware': '14.6',
-                            'hardware': 'iPhone',
-                            'manufacture': 'Apple',
-                            'csp': 'Carrier',
-                            'icc': '',
-                            'mcc': '0',
-                            'mnc': '0',
-                            'device_os': 'ios',
-                            'secure_id': '',
-                        },
-                        'appVer': self.appVer,
-                        'appCode': self.appCode,
-                        'lang': 'vi',
-                        'deviceOS': 'ios',
-                        'channel': 'APP',
-                        'buildNumber': 0,
-                        'appId': 'vn.momo.platform',
-                        'cmdId': f'{self.time_zone}000000',
-                        'time': self.time_zone,
-            }
-            if 'Thành công' in response:
-                print(self.format_print("*",f"CALL: {response}"))
-            else:
-                print(self.format_print("*",f"CALL: "+response))
-        except:
-            print(self.format_print("*",f"CALL: SUCCESS!"))
+
         try:
             json_data = {
                     'phone_number': self.phone,
@@ -558,53 +592,6 @@ class SPAM:
         except:
             print(self.format_print("*",f"TIKI: ERROR!"))
     def meta_vn(self):
-        try:
-            def random_string(self, length):
-                    number = '0123456789'
-                    alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ'
-                    id = ''
-                    for i in range(0,length,2):
-                        id += random.choice(number)
-                        id += random.choice(alpha)
-                    return id
-            def checkdvc(self):
-                while True:
-                    json_data = {
-                        'user': self.phone,
-                        'msgType': 'CHECK_USER_BE_MSG',
-                        'momoMsg': {
-                            '_class': 'mservice.backend.entity.msg.RegDeviceMsg',
-                            'number': self.phone,
-                            'imei': str(self.imei),
-                            'cname': 'Vietnam',
-                            'ccode': '084',
-                            'device': 'iPhone',
-                            'firmware': '14.6',
-                            'hardware': 'iPhone',
-                            'manufacture': 'Apple',
-                            'csp': 'Carrier',
-                            'icc': '',
-                            'mcc': '0',
-                            'mnc': '0',
-                            'device_os': 'ios',
-                            'secure_id': '',
-                        },
-                        'appVer': self.appVer,
-                        'appCode': self.appCode,
-                        'lang': 'vi',
-                        'deviceOS': 'ios',
-                        'channel': 'APP',
-                        'buildNumber': 0,
-                        'appId': 'vn.momo.platform',
-                        'cmdId': f'{self.time_zone}000000',
-                        'time': self.time_zone,
-            }
-            if 'Thành công' in response:
-                print(self.format_print("*",f"CALL: {response}"))
-            else:
-                print(self.format_print("*",f"CALL: "+response))
-        except:
-            print(self.format_print("*",f"CALL: SUCCESS!"))
         try:
             params = {
                 'api_mode': '1',
@@ -624,53 +611,6 @@ class SPAM:
         except:
             print(self.format_print("*",f"METAVN: ERROR!"))
     def vntrip(self):
-        try:
-            def random_string(self, length):
-                    number = '0123456789'
-                    alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ'
-                    id = ''
-                    for i in range(0,length,2):
-                        id += random.choice(number)
-                        id += random.choice(alpha)
-                    return id
-            def checkdvc(self):
-                while True:
-                    json_data = {
-                        'user': self.phone,
-                        'msgType': 'CHECK_USER_BE_MSG',
-                        'momoMsg': {
-                            '_class': 'mservice.backend.entity.msg.RegDeviceMsg',
-                            'number': self.phone,
-                            'imei': str(self.imei),
-                            'cname': 'Vietnam',
-                            'ccode': '084',
-                            'device': 'iPhone',
-                            'firmware': '14.6',
-                            'hardware': 'iPhone',
-                            'manufacture': 'Apple',
-                            'csp': 'Carrier',
-                            'icc': '',
-                            'mcc': '0',
-                            'mnc': '0',
-                            'device_os': 'ios',
-                            'secure_id': '',
-                        },
-                        'appVer': self.appVer,
-                        'appCode': self.appCode,
-                        'lang': 'vi',
-                        'deviceOS': 'ios',
-                        'channel': 'APP',
-                        'buildNumber': 0,
-                        'appId': 'vn.momo.platform',
-                        'cmdId': f'{self.time_zone}000000',
-                        'time': self.time_zone,
-            }
-            if 'Thành công' in response:
-                print(self.format_print("*",f"CALL: {response}"))
-            else:
-                print(self.format_print("*",f"CALL: "+response))
-        except:
-            print(self.format_print("*",f"CALL: SUCCESS!"))
         try:
             json_data = {
                 'feature': 'register',
@@ -700,10 +640,9 @@ class SPAM:
                     break
                 print(self.format_print("!", "SỐ ĐIỆN THOẠI DƯỚI 10 SỐ XIN NHẬP LẠI !"))
             if self.phone == '0335220289':
-                print(self.format_print("!", "LÀM ƠN ĐỪNG SPAM SỐ ĐIỆN THOẠI HƯNG!"))
-            time.sleep(3)
+                print(self.format_print("!", "TUỔI GÌ MÀ ĐÒI SPAM SỐ CỦA HƯNG ĐẸP TRAI!"))
+            time.sleep(2)
             
-        
         threading.Thread(target=self.checkdvc).start()
         time.sleep(1)
         threading.Thread(target=self.run_sendotp).start()
