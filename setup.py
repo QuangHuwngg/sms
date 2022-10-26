@@ -5,9 +5,10 @@ def slowprint(s):
 	for c in s + '\n':
 		sys.stdout.write(c)
 		sys.stdout.flush()
-		time.sleep(1./10)
+		time.sleep(1./20)
 slowprint("Tool Spam Sms By Nguyễn Quang Hưng")
 time.sleep(1.0)
-slowprint("[+] Install Pystyle Resources . . .")
+slowprint("[+] Install Resources . . .")
 os.system("pip3 install pystyle")
+os.system("pip install colorama")
 slowprint("[+]Install Successful")
