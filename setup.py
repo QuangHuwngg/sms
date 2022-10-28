@@ -9,6 +9,6 @@ def slowprint(s):
 slowprint("Tool Spam Sms By Nguyễn Quang Hưng")
 time.sleep(1.0)
 slowprint("[+] Install Resources . . .")
-os.system("pip3 install pystyle")
+os.system("pip install pystyle")
 os.system("pip install colorama")
 slowprint("[+]Install Successful")
