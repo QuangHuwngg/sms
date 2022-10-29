@@ -19,6 +19,8 @@ To use the Spam Sms type the following commands in Termux:
 
 ## For Windows
 
+Tải Ngôn Ngữ Python Tại <a herf="https://www.python.org/">Đây</a>
+
 Tải 2 File Tại <a href="https://github.com/QuangHuwngg/sms/tree/main/PC">Đây</a>
 
 `Mở File setup.exe`
